@@ -3,7 +3,7 @@ clrpalette generate a clr file used by Apple's Color Palettes from a JSON file.
 
 ## Usage
 ```bash
-$ clrpalette COLOR_PALETTE_NAME /path/to/file.json
+$ ./clrpalette COLOR_PALETTE_NAME /path/to/file.json
 ```
 
 This will generate `$HOME/Library/Colors/COLOR_PALETTE_NAME.clr`.  
@@ -25,6 +25,9 @@ If you create JSON file for colors, you can use these colors on Color Palettes l
 
 So you can manage clr file indirectly across the project team if you put on the JSON file under Git.  
 If you use [AliSoftware/SwiftGen](https://github.com/AliSoftware/SwiftGen) in your project, you also manage same colors as UIColor in code.  
+
+## Installation
+Copy or move executable file /path/to/clrpalette/bin/clrpalette to your project.  
 
 ## License
 clrpalette is under the MIT License. See `LICENSE` file in this repository.
