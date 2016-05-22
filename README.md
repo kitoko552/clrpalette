@@ -1,2 +1,2 @@
 # clrpalette
-Generate clr file used by Apple's Color Paletes.
+Generate a clr file used by Apple's Color Palettes from a JSON file.
