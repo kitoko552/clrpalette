@@ -81,6 +81,7 @@
 				8F3DB1571CF17E9E00324F45 /* Sources */,
 				8F3DB1581CF17E9E00324F45 /* Frameworks */,
 				8F3DB1591CF17E9E00324F45 /* CopyFiles */,
+				8F911ACD1CF1A93A003F0DE2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -122,6 +123,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F911ACD1CF1A93A003F0DE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $BUILT_PRODUCTS_DIR/clrpalette $SRCROOT/bin/clrpalette";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F3DB1571CF17E9E00324F45 /* Sources */ = {
