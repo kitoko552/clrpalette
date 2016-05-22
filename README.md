@@ -1,6 +1,6 @@
 # clrpalette
 clrpalette generate a clr file used by Apple's Color Palettes from a JSON file.  
-clrpalette is affected by [naoty/clr](https://github.com/naoty/clr) and [AliSoftware/SwiftGen](https://github.com/AliSoftware/SwiftGen).  
+This is affected by [naoty/clr](https://github.com/naoty/clr) and [AliSoftware/SwiftGen](https://github.com/AliSoftware/SwiftGen).  
 
 ## Usage
 ```bash
