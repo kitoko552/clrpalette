@@ -11,10 +11,10 @@ enum Result {
     case Failure(message: Message)
     
     enum Message: String {
-        case Usage = "Usage: $ clr CLR_FILE_NAME COLOR_JSON_FILE\n"
-        case Success = "SUCCESS: clr file has created.\n"
-        case NoSuchFile = "No such file.\n"
-        case SerializationFailed = "Failed to serialize from data.\n"
-        case WriteToFileFailed = "Failed to write to file.\n"
+        case Usage = "Usage: $ clr CLR_FILE_NAME COLOR_JSON_FILE"
+        case Success = "SUCCESS: clr file has created."
+        case NoSuchFile = "No such file."
+        case SerializationFailed = "Failed to serialize from data."
+        case WriteToFileFailed = "Failed to write to file."
     }
 }
