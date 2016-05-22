@@ -27,7 +27,7 @@ So you can manage clr file indirectly across the project team if you put on the 
 If you use [AliSoftware/SwiftGen](https://github.com/AliSoftware/SwiftGen) in your project, you also manage same colors as UIColor in code.  
 
 ## Installation
-Copy or move executable file /path/to/clrpalette/bin/clrpalette to your project.  
+Copy or move executable file `/path/to/clrpalette/bin/clrpalette` to your project.  
 
 ## License
 clrpalette is under the MIT License. See `LICENSE` file in this repository.
