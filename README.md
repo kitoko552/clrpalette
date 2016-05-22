@@ -21,7 +21,7 @@ If you create JSON file for colors, you can use these colors on Color Palettes l
 }
 ```
 
-![](https://github.com/kitoko552/clrpalette/tree/master/Resources/color_palette.png)
+![Color Palette Sample](https://github.com/kitoko552/clrpalette/blob/master/Resources/color_palette.png)
 
 So you can manage clr file indirectly across the project team if you put on the JSON file under Git.
 If you use [AliSoftware/SwiftGen](https://github.com/AliSoftware/SwiftGen) in your project, you also manage same colors as UIColor in code.  
