@@ -7,7 +7,7 @@ $ ./clrpalette COLOR_PALETTE_NAME /path/to/file.json
 ```
 
 This will generate `$HOME/Library/Colors/COLOR_PALETTE_NAME.clr`.  
-And you will use this on Color Palettes in various Mac apps such as Xcode.  
+And you will use this on Color Palettes in various Mac apps including Xcode.  
 
 ## Example
 If you create JSON file for colors, you can use these colors on Color Palettes like below.  
