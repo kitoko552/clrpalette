@@ -8,7 +8,7 @@
 
 import Foundation
 
-let result = Application(arguments: Process.arguments).run()
+let result = Application.run(Process.arguments)
 
 switch result {
 case .Success(let message):

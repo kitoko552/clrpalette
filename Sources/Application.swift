@@ -9,13 +9,7 @@
 import AppKit
 
 struct Application {
-    private let arguments: [String]
-
-    init(arguments: [String]) {
-        self.arguments = arguments
-    }
-    
-    func run() -> Result {
+    static func run(arguments: [String]) -> Result {
         if arguments.count < 2 {
             return Result.Failure(message: .Usage)
         }
